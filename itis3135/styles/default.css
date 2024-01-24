@@ -1,0 +1,36 @@
+body {
+    background-color:rgb(212, 238, 212);
+    text-align: center;
+    color:rgb(75, 95, 36);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color:rgb(114, 141, 60);
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color:rgb(135, 190, 135);
+    text-decoration:line;
+}
+
+main {
+
+    margin-left:10%;
+    margin-right:10%;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 40%;
+}
+
+figure {
+    text-align: center;
+    font-style: italic;
+}
