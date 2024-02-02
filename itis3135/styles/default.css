@@ -38,3 +38,7 @@ figure {
 #figureTable {
     font-style: normal;
 }
+
+#captionTable {
+    text-align: left;
+}
