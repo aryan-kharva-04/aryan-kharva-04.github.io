@@ -5,6 +5,10 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#crappyBody {
+    color: black;
+}
+
 a {
     color:rgb(114, 141, 60);
     text-decoration: none;
@@ -26,7 +30,7 @@ h2 {
     text-align: center;
 }
 
-img {
+#intro {
     width: 40%;
 }
 
@@ -62,3 +66,10 @@ button[name="submit_button"] {
     text-decoration: underline;
     font-size: 20px;
 }
+
+#theYellowAndConfusedPikachu {
+    height: 400px;
+    width: auto;
+    aspect-ratio: 1/0.4;
+}
+
