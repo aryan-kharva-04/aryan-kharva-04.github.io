@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aryan Kharva's Awkward Koala || ITIS 3135 Introduction</title>
+    <title>Aryan Kharva's Awkward Koala || ITIS 3135 Home</title>
     <link rel="stylesheet" href="styles/default.css">
 </head>
 <body>
@@ -17,18 +17,40 @@
             <a href="forms.html">Forms</a> ||
             <a href="website_evaluations.html">Website Evaluations</a>
         </nav>
+        <br>
+        <nav>
+            <a href="CrAPpy^ WeBpAge.htm">|| Crappy ||</a>
+        </nav>
     </header>
     <main>
-        <h2>Introduction</h2>
-        <h2>Aryan Kharva || Awkward Koala</h2>
-        <figure style>
-            <img src="pikachu.jpeg" alt="pikachu">
+        <h2>firstscripts page</h2>
+
+                
+                <h3 id="dateTime"></h3>
+                <form id="userInfoForm">
+                    <label for="userName">Name:</label>
+                    <input type="text" id="userName">
+                    <label for="userFeeling">How are you feeling?</label>
+                    <input type="text" id="userFeeling">
+                    <label for="favoriteNumber">Enter your favorite number (0-10):</label>
+                    <input type="number" id="favoriteNumber" min="0" max="10">
+                    <button type="button" onclick="submitUserInfo()">Submit</button>
+                </form>
+                <h3 id="greetingMessage"></h3>
+                <div id="polygonResult"></div>
+                <button onclick="provideInsult()">Provide an Insult</button>
+                <button onclick="playWithAnimal()">Play with Animal</button>
+                <button onclick="feedAnimal()">Feed Animal</button>
+                <button onclick="teachTrick()">Teach a Trick</button>
+                <button onclick="organizeCompetition()">Organize a Competition</button>
             
-        </figure>
+                
+            <script src="scripts/firstscripts.js" defer></script>
+            
         
-        <br>
     </main>
     <footer>
+        <br>
         <nav>
             <a href="https://webpages.charlotte.edu/akharva1/">Charlotte.edu</a> ||
             <a href="https://github.com/aryan-kharva-04/aryan-kharva-04.github.io">Github</a> ||
@@ -37,11 +59,13 @@
             <a href="https://www.codecademy.com/profiles/aryan_kharva">Codecademy</a> ||
             <a href="https://www.linkedin.com/in/aryankharva/">LinkedIn</a>
         </nav>
+        <br>
+        
             <p>Page Created by <a href="koalakomputers.com/">Koala Komputers </a>&copy; 2023 </p>
 
                 <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-                    <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
-                </a>
+                <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
+               </a>
                 <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
                 <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
                 </a>
