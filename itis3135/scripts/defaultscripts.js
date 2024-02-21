@@ -17,6 +17,7 @@ function polygonName() {
 
   // Array of polygon names
   const polygonNames = [
+    "Error",
     "monogon",
     "digon", 
     "trigon",
