@@ -12,12 +12,13 @@ function greetUser() {
 
 // Get polygon name function
 function polygonName() {
+
   // Get favorite number input by user
   const num = Math.abs(Math.round(document.getElementById("favNumInput").value));
 
   // Array of polygon names
   const polygonNames = [
-    "Error",
+    "Pick a number between 1 and 10 please.",
     "monogon",
     "digon", 
     "trigon",
@@ -30,9 +31,8 @@ function polygonName() {
     "decagon" 
   ];
 
-  // Display polygon name for number entered
-  // Or undefined if number not in array
-  alert(polygonNames[num] || "undefined"); 
+  // Display polygon name for number entered. if it's more than 10, then send the following alert:
+  alert(polygonNames[num] || "Pick a number between 1 and 10 please."); 
 
 }
 
@@ -41,12 +41,12 @@ function custService() {
     const name = document.getElementById("nameInput").value;
 
     alert(`${name} has called Koala Komputers customer support. 
-      How can we help you today? Please hold while we connect you with the next available Koala agent.`);
+    How can we help you today? Please hold while we connect you with the next available Koala agent.`);
   
 }
 
 function giftCard() {
-  // Get name and amount entered
+  // Get the name and amount entered
   const name = document.getElementById("nameInput").value;
   const amount = prompt("Enter desired gift card amount:");
 
@@ -86,7 +86,7 @@ function donateKoala() {
   if(confirm(`Thank you ${name} for your $${amount} donation to Koalas Without Trees! 
   Would you like a tax receipt emailed to you?`)) {
 
-    alert("Thank you for supporting koala conservation! Your donation receipt has been emailed.");
+    alert("Thank you for supporting your local koala conservation! Your donation receipt has been emailed.");
   
   } else {
 
