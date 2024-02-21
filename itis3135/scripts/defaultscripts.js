@@ -12,22 +12,84 @@ function greetUser() {
 
 // Get polygon name function
 function polygonName() {
-  // Code same as before 
+  // Get favorite number input by user
+  const num = Math.abs(Math.round(document.getElementById("favNumInput").value));
+
+  // Array of polygon names
+  const polygonNames = [
+    "monogon",
+    "digon", 
+    "trigon",
+    "tetragon",
+    "pentagon",
+    "hexagon",
+    "heptagon", 
+    "octagon",
+    "nonagon",
+    "decagon" 
+  ];
+
+  // Display polygon name for number entered
+  // Or undefined if number not in array
+  alert(polygonNames[num] || "undefined"); 
+
 }
 
 // Koala functions
-function sellLaptop() {
-  alert("Here is a top-of-the-line EucalyptusBook Pro for you!"); 
+function custService() {
+    const name = document.getElementById("nameInput").value;
+
+    alert(`${name} has called Koala Komputers customer support. 
+      How can we help you today? Please hold while we connect you with the next available Koala agent.`);
+  
 }
 
-function provideSupport() {
-  alert("Did you check that your laptop is plugged in? *munch munch*");
+function giftCard() {
+  // Get name and amount entered
+  const name = document.getElementById("nameInput").value;
+  const amount = prompt("Enter desired gift card amount:");
+
+  // Confirm purchase 
+  if(confirm(`Thank you ${name}! We will charge $${amount} to your card ending in 1234. Is this OK?`)) {
+    alert("Payment successful! Enjoy your Koala Komputers gift card!");
+  } else {
+    alert("Payment cancelled"); 
+  }
 }
 
-function shareEucTip() {
-  alert("The smooth bark Eucalyptus trees are the tastiest!");  
+function koalaJoke() {
+  // Array of koala jokes 
+  const jokes = [
+    "What do you call a koala who does karate? A karateala!",
+    "What do koalas order at restaurants? Euca-lattes!",
+    "Why can't koalas become doctors? They can't get the koalafications!"
+   ];
+ 
+   // Get random joke
+   const randomIndex = Math.floor(Math.random() * jokes.length);
+   const joke = jokes[randomIndex];
+ 
+   // Tell joke
+   alert(joke);
+  
 }
 
-function napTime() {
-  alert("Time for my 30 hour nap! Zzzz...");
+function donateKoala() {
+  // Get name of donor
+  const name = document.getElementById("nameInput").value;
+
+  // Ask for donation amount
+  const amount = prompt("Please enter donation amount:");
+
+  // Confirm donation
+  if(confirm(`Thank you ${name} for your $${amount} donation to Koalas Without Trees! 
+  Would you like a tax receipt emailed to you?`)) {
+
+    alert("Thank you for supporting koala conservation! Your donation receipt has been emailed.");
+  
+  } else {
+
+    alert("Donation cancelled - koalas appreciate your consideration.");
+
+  }
 }
