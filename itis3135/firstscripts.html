@@ -3,48 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aryan Kharva's Awkward Koala || ITIS 3135 Home</title>
+    <title>Aryan Kharva's Awkward Koala || ITIS 3135 FirstScripts</title>
     <link rel="stylesheet" href="styles/default.css">
 </head>
 <body>
-    <header>
-        <div data-include="components/header.html"></div>
-    </header>
-    <main>
-        <h2>firstscripts page</h2>
 
-                
-                <h3 id="dateTime"></h3>
-                <form id="userInfoForm">
-                    <label for="userName">Name:</label>
-                    <input type="text" id="userName">
-                    <label for="userFeeling">How are you feeling?</label>
-                    <input type="text" id="userFeeling">
-                    <label for="favoriteNumber">Enter your favorite number (0-10):</label>
-                    <input type="number" id="favoriteNumber" min="0" max="10">
-                    <button type="button" onclick="submitUserInfo()">Submit</button>
-                </form>
-                <h3 id="greetingMessage"></h3>
-                <div id="polygonResult"></div>
-                <button onclick="provideInsult()">Provide an Insult</button>
-                <button onclick="playWithAnimal()">Play with Animal</button>
-                <button onclick="feedAnimal()">Feed Animal</button>
-                <button onclick="teachTrick()">Teach a Trick</button>
-                <button onclick="organizeCompetition()">Organize a Competition</button>
-            
-                
-            <script src="scripts/firstscripts.js" defer></script>
-            
-        
-    </main>
-    <footer>
-        <div data-include="components/footer.html"></div>
-    </footer>
-    <script>
-        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
-        document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-    </script>
-    <script src="scripts/HTMLInclude.min.js"></script>
+  <header>
+    <div data-include="components/header.html"></div>
+  </header>
+
+  <main>
+
+    <h2>Koala Scripts</h2>
+
+    <h3 id="time"></h3>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="nameInput" name="name">
+
+      <label for="mood">Mood:</label>
+      <input type="text" id="moodInput" name="mood">
+
+      <button type="button" onclick="greetUser()">Submit</button>
+    </form>
+
+    <p id="greeting"></p>
+
+    <label for="favNum">Favorite Number:</label>
+    <input type="number" id="favNumInput" name="favNum">
+
+    <button onclick="polygonName()">Get Polygon Name</button>
+
+    <button onclick="sellLaptop()">Sell a Laptop</button>
+    <button onclick="provideSupport()">Provide Tech Support</button>
+    <button onclick="shareEucTip()">Share a Eucalyptus Tip</button>
+    <button onclick="napTime()">Take a Nap</button>
+
+  </main>
+  <br>
+  <footer>
+    <div data-include="components/footer.html"></div>
+</footer>
+<script>
+    document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+    document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+</script>
+<script src="scripts/HTMLInclude.min.js"></script>
+<script src="scripts/defaultscripts.js"></script>
 </body>
-
 </html>
