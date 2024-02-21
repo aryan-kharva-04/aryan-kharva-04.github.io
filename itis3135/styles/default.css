@@ -73,3 +73,17 @@ button[name="submit_button"] {
     aspect-ratio: 1/0.4;
 }
 
+#logo {
+    width: 150px;
+    margin: 2px auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.designList li {
+    margin-bottom: 15px;
+}
