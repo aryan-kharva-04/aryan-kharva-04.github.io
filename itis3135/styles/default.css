@@ -1,8 +1,8 @@
 body {
-    background-color:rgb(212, 238, 212);
+    background-color: rgb(212, 238, 212);
     text-align: center;
-    color:rgb(75, 95, 36);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 95, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #crappyBody {
@@ -10,20 +10,22 @@ body {
 }
 
 a {
-    color:rgb(114, 141, 60);
+    color: rgb(114, 141, 60);
     text-decoration: none;
-    
 }
 
 a:hover {
-    color:rgb(135, 190, 135);
-    text-decoration:line;
+    color: rgb(135, 190, 135);
+    text-decoration: line;
 }
 
 main {
     text-align: left-align;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1200px; /* Adjust as needed */
+    width: 90%; /* Adjust percentage based on the design requirements */
+    margin: 0 auto; /* Centers content horizontally */
 }
 
 h2 {
@@ -48,15 +50,16 @@ figure {
 }
 
 button[name="resetting_button"] {
-    color:rgb(255, 255, 255);
-    background-color:rgb(93, 134, 58);
+    color: rgb(255, 255, 255);
+    background-color: rgb(93, 134, 58);
     width: 90px;
     height: 23px;
     margin: 3px;
 }
+
 button[name="submit_button"] {
     color: rgb(255, 255, 255);
-    background-color:rgb(93, 134, 58);
+    background-color: rgb(93, 134, 58);
     width: 90px;
     height: 23px;
     margin: 3px;
