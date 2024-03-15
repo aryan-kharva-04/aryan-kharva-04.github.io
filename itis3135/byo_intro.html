@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Kharva's Awkward Koala || ITIS 3135 BYO Intro</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+
+    </header>
+    <main>
+        <h2>BYO Intro</h2>
+        <h3>Time to BYO Intro page, please fill out the form below so we can create your own page.</h3>
+
+        <form id="byo_intro_form" onsubmit="submit_form(); return false;" style="text-align: left;">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="mascot">Mascot:</label>
+            <input type="text" id="mascot" required>
+
+            <label for="image">Image <strong>(.jpg or .png only)</strong></label>
+            <input type="file" id="image" accept="image/png, image/jpeg" required">
+
+            <div id="loadImage">
+
+            </div>
+
+            <label for="image_caption">Image Caption:</label>
+            <input type="text" id="image_caption" required>
+
+            <label for="personal_background">Personal Background:</label>
+            <input type="text" id="personal_background" required>
+
+            <label for="professional_background">Professional Background:</label>
+            <input type="text" id="professional_background" required>
+
+            <label for="academic_background">Academic Background:</label>
+            <input type="text" id="academic_background" required>
+
+            <label for="webdev_background">Web Development Background:</label>
+            <input type="text" id="webdev_background" required>
+
+            <label for="computer_platform">Computer Platform:</label>
+            <input type="text" id="computer_platform" required>
+
+            <div id="current_courses"><label for="courses">Current Courses:</label>
+                <input type="text" class="courses" required>
+                <button type="button" onclick="addCourse()">Add Course</button>
+            </div>
+
+            <label for="funny_thing">A Funny Thing About Yourself:</label>
+            <input type="text" id="funny_thing">
+
+            <label for="anything_else">Anything Else?</label>
+            <input type="text" id="anything_else">
+
+            <div>
+                <p>I understand that what is on this page is not password protected,
+                    and I will not put anything here that I don’t want publicly available.</p>
+                    <input type="checkbox" id="agree" required="">
+            </div>
+            
+            <button type="submit_button" value="Submit" style="width: 100px; height: 20px;" onclick="submit_form();">Submit</button>
+
+            <button type="reset_button" value="Reset" style="width: 100px; height: 20px;">Reset</button>
+
+            <div id="byo_form">
+
+            </div>
+
+        
+            
+        </form>
+    
+        <div id="outputContainer"></div>
+    
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+    <script src="survey.js"></script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+
+</html>
