@@ -18,7 +18,7 @@ function submit_form(){
     
     final_form.innerHTML= `
     <h2>Introduction</h2>
-    <h3>${name}'s "${mascot}"</h3>
+    <h3>${name} || ${mascot}</h3>
     <figure>
         <img src="${imageUrl}" class="pfp" alt="${image_caption}">
         <figcaption>${image_caption}</figcaption>
