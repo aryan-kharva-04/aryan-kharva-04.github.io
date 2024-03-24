@@ -113,6 +113,19 @@
        th {
         text-align: left;
        }
+
+       /* Three image containers (use 25% for four, and 50% for two, etc) */
+        .column {
+        float: left;
+        padding: 5px;
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
         
 
        
@@ -422,7 +435,7 @@
             </li>
             <br>
             <li>
-                <b>Warped:</b>With its vibrant blue hue and twisted texture, Warped wood brings an otherworldly aesthetic to Minecraft builds. Found exclusively in the Nether, it offers a rare and exotic option for those seeking to create mystical-themed landscapes and surreal environments.
+                <b>Warped:</b> With its vibrant blue hue and twisted texture, Warped wood brings an otherworldly aesthetic to Minecraft builds. Found exclusively in the Nether, it offers a rare and exotic option for those seeking to create mystical-themed landscapes and surreal environments.
             </li>
             <br>
             <li>
@@ -446,7 +459,83 @@
        
        <section id="ai-content">
            <h2>AI Prompts</h2>
-           <!-- Add your content for the "AI Prompts" section here -->
+           <h3>Claude</h3>
+
+           <figure style>
+                <img id="claude1" style="width: 350px;" src="images/claude1.png" alt="claude1">
+                <figcaption>Base for the site</figcaption>
+            </figure>
+
+            <p style="font-style: italic;">I used Claude to generate the base for my site. From there, I had to add my hobby/topic, color scheme, fonts, and three elements on each section manually. I used the prompt: "complete the following code" with the directions of the assignment copy and pasted.</p>
+        
+            <figure style>
+                <img id="claude2" style="width: 350px;" src="images/claude2.png" alt="claude2">
+                <figcaption>Gaming Sessions Table</figcaption>
+            </figure>
+    
+            <p style="font-style: italic;">I used Claude to generate the table under the "When?" header under the "Gaming Sessions" section. I used the prompt: "create a table in html that shows when I play video games with my friends. I play on weekends and on breaks from school like spring break, summer break, and fall break."</p>
+
+            <figure style>
+                <img id="claude3" style="width: 350px;" src="images/claude3.png" alt="claude3">
+                <figcaption>Gaming Setups Form</figcaption>
+            </figure>
+    
+            <p style="font-style: italic;">I used Claude to generate the form under the "Choose Your Setup" section. I used the prompt: "create a form in html about gaming that lets user select what kind of monitor they want for gaming, controller, console, desk, etc." Claude provided the HTML and JavaScript code to complete this.</p>
+            
+            <h3>ChatGPT</h3>
+
+            <figure style>
+                <img id="chat1" style="width: 350px;" src="images/chat1.png" alt="chat1">
+                <figcaption>About Me Paragraph</figcaption>
+            </figure>
+    
+            <p style="font-style: italic;">I used ChatGPT to generate the paragraph under the "What Kinds of Games" header under the "About Me" section. I used the prompt: "generate a pragraph on what kinds of games i like. I like playing many types of games but first person shooters like Call of Duty have always had my heart. I love pvp and the competiveness of it." Initially, I felt the paragraph was too short, so I continued with the prompt "slightly longer" to extend the paragraph.</p>
+
+            <figure style>
+                <img id="chat2" style="width: 350px;" src="images/chat2.png" alt="chat2">
+                <figcaption>Gaming Tips Paragraph</figcaption>
+            </figure>
+    
+            <p style="font-style: italic;">I used ChatGPT to generate the paragraph under the "How To Master A Game" header under the "Gaming Tips" section. I used the prompt: "write a paragraph about to know how to play a game you need some good tips, and that utilizing certain strategies in games, you will produce a better outcome."</p>
+
+            <figure style>
+                <img id="chat3" style="width: 350px;" src="images/chat3.png" alt="chat3">
+                <figcaption>Minecraft Wood Ranking</figcaption>
+            </figure>
+    
+            <p style="font-style: italic;">I used ChatGPT to generate the descriptions for each ranked wooden block under the "Ranking Of The 10 Types Of Wooden Planks In Minecraft" header under the "Why I Love Gaming" section. I gave the AI my own personal ranking, and at first it just spit out the same input I gave it. I then told the AI to "write descriptions."</p>
+    
+            <div class="row">
+                <div class="column">
+                  <img src="images/chat4.png" alt="chat4" style="width:350px">
+                  <figcaption>Gaming Sessions Paragraph Image 1</figcaption>
+                </div>
+                <div class="column">
+                  <img src="images/chat5.png" alt="chat5" style="width:350px">
+                  <figcaption>Gaming Sessions Paragraph Image 2</figcaption>
+                </div>
+              </div>
+            <p style="font-style: italic;">I used ChatGPT to generate the paragraph under the "Game Time" header under the "Gaming Sessions" section. I initially used the prompt: "give me explanation as to when i'd game. I'll be gaming with my friends on the weekends and during breaks such as spring break and summer break." To try to get it how I wanted, I continued with "talk from my perspective and make it shorter." The paragraph was too short for my liking, so I told the AI to make it "longer."</p>
+
+            <figure style>
+                <img id="chat6" style="width: 350px;" src="images/chat6.png" alt="chat6">
+                <figcaption>Why I Love Gaming Paragraph</figcaption>
+            </figure>
+    
+            <p style="font-style: italic;">I used ChatGPT to generate the paragraph under the "Why" header under the "Why I Love Gaming" section. I used the prompt: "write a paragraph on why i love gaming."</p>
+
+            <div class="row">
+                <div class="column">
+                  <img src="images/chat7.png" alt="chat7" style="width:350px">
+                  <figcaption>Why I Love Gaming Paragraph Image 1</figcaption>
+                </div>
+                <div class="column">
+                  <img src="images/chat8.png" alt="chat8" style="width:350px">
+                  <figcaption>Why I Love Gaming Paragraph Image 2</figcaption>
+                </div>
+              </div>
+            <p style="font-style: italic;">I used ChatGPT to generate the paragraph under the "Benefits of Gaming" header under the "Home" section. I initially used the prompt: "give me an explanation on what gaming hobby is about." I wanted the AI to make it a paragraph, so I used the prompt: "paragraph." I changed my mind once more, so I used the prompt: "bullet points." In my final product, I turned the last bullet points back into a paragraph.</p>
+
        </section>
    </main>
    
