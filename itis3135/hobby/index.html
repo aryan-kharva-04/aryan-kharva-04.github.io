@@ -306,8 +306,8 @@
               <option value="Ultrawide">Ultrawide</option>
             </select>
           
-            <label for="controller">Choose a Controller:</label>
-            <select id="controller" name="controller">
+            <label for="console_controller">Choose a Controller:</label>
+            <select id="console_controller" name="console_controller">
               <option value="" disabled selected>Select a Controller</option>
               <option value="Xbox">Xbox Controller</option>
               <option value="Playstation">PlayStation Controller</option>
@@ -346,14 +346,14 @@
               event.preventDefault(); // Prevent form submission
           
               const monitor = form.elements.monitor.value;
-              const controller = form.elements.controller.value;
+              const console_controller = form.elements.console_controller.value;
               const console = form.elements.console.value;
               const desk = form.elements.desk.value;
           
               const selections = `
                 <h3>Your Selections:</h3>
                 <p>Monitor: ${monitor || 'No selection'}</p>
-                <p>Controller: ${controller || 'No selection'}</p>
+                <p>Controller: ${console_controller || 'No selection'}</p>
                 <p>Console: ${console || 'No selection'}</p>
                 <p>Desk: ${desk || 'No selection'}</p>
               `;
