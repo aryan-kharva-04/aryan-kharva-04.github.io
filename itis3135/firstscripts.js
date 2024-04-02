@@ -1,7 +1,7 @@
 function submitUserInfo() {
-    const userName = document.getElementById("userName").value;
-    const userFeeling = document.getElementById("userFeeling").value;
-    const favoriteNumber = Math.abs(Math.round(parseFloat(document.getElementById("favoriteNumber").value)));
+    const userName = document.getElementById("nameInput").value;
+    const userFeeling = document.getElementById("moodInput").value;
+    const favoriteNumber = Math.abs(Math.round(parseFloat(document.getElementById("favNumInput").value)));
 
     document.getElementById("greetingMessage").innerText = `The My Company welcomes you, ${userName}! We're glad you are doing ${userFeeling}!`;
 
