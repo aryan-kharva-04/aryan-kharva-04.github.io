@@ -93,10 +93,12 @@ button[name="submit_button"] {
 
 #tableSimple {
     width: 700px;
+    background-color: black;
 }
 
 #tablesComplex {
     width: 700px;
+    background-color: black;
 }
 
 #tr1 {
