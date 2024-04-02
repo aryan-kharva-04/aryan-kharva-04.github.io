@@ -90,3 +90,23 @@ button[name="submit_button"] {
 .designList li {
     margin-bottom: 15px;
 }
+
+#tableSimple {
+    width: 700px;
+}
+
+#tablesComplex {
+    width: 700px;
+}
+
+#tr1 {
+    background-color: #9DC183;
+}
+
+#tr2 {
+    background-color: #9DC183;
+}
+
+tr {
+    background-color: #e5ffe5;
+}
