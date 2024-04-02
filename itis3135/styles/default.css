@@ -16,11 +16,10 @@ a {
 
 a:hover {
     color: rgb(135, 190, 135);
-    text-decoration: line;
 }
 
 main {
-    text-align: left-align;
+    text-align: left;
     margin-left: 10%;
     margin-right: 10%;
     max-width: 1200px; /* Adjust as needed */
