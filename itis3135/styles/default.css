@@ -105,9 +105,31 @@ button[name="submit_button"] {
 }
 
 #tr2 {
-    background-color: #9DC183;
+    background-color: #698158;
+    color: #f0f8ea;
 }
 
 tr {
     background-color: #e5ffe5;
+}
+
+#row2 {
+    background-color: #9DC183;
+}
+
+#row4 {
+    background-color: #9DC183;
+}
+
+#row6 {
+    background-color: #9DC183;
+}
+
+#row8 {
+    background-color: #9DC183;
+}
+
+#row9 {
+    background-color: #698158;
+    color: #f0f8ea;
 }
