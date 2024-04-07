@@ -1,3 +1,4 @@
+/* Common styles for all devices */
 body {
     background-color: rgb(212, 238, 212);
     text-align: center;
@@ -48,14 +49,7 @@ figure {
     text-align: left;
 }
 
-button[name="resetting_button"] {
-    color: rgb(255, 255, 255);
-    background-color: rgb(93, 134, 58);
-    width: 90px;
-    height: 23px;
-    margin: 3px;
-}
-
+button[name="resetting_button"],
 button[name="submit_button"] {
     color: rgb(255, 255, 255);
     background-color: rgb(93, 134, 58);
@@ -90,47 +84,53 @@ button[name="submit_button"] {
     margin-bottom: 15px;
 }
 
-#tableSimple {
-    width: 700px;
-    background-color: black;
-}
-
+#tableSimple,
 #tablesComplex {
     width: 700px;
     background-color: black;
 }
 
-#tr1 {
+#tableSimple #tr1,
+#tablesComplex #tr1 {
     background-color: #9DC183;
 }
 
-#tr2 {
+#tableSimple #tr2,
+#tablesComplex #tr2 {
     background-color: #698158;
     color: #f0f8ea;
-
 }
 
-tr {
+#tableSimple tr,
+#tablesComplex tr {
     background-color: #e5ffe5;
 }
 
-#row2 {
+#tableSimple #row2,
+#tableSimple #row4,
+#tableSimple #row6,
+#tableSimple #row8,
+#tablesComplex #row9 {
     background-color: #9DC183;
 }
 
-#row4 {
-    background-color: #9DC183;
-}
-
-#row6 {
-    background-color: #9DC183;
-}
-
-#row8 {
-    background-color: #9DC183;
-}
-
-#row9 {
+#tablesComplex #row9 {
     background-color: #698158;
     color: #f0f8ea;
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+    main {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
