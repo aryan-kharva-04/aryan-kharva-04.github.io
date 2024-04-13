@@ -5,6 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bollywood Threads - Gallery</title>
     <link rel="stylesheet" href="client.css">
+        <!-- Include Slick CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <!-- Include Slick theme CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <style>
+.carousel-container {
+    position: relative;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+.carousel-slide img {
+    width: 1000px; /* Adjust the width of the images */
+    height: 500px; /* Ensure images take up the full height of the slide */
+    object-fit: cover; /* Ensure the entire slide is covered by the image */
+}
+
+h2 {
+    margin-left: 50px;
+}
+        </style>
 </head>
 <body>
     <header>
@@ -20,12 +52,123 @@
             </ul>
         </nav>
     </header>
+    <br>
     <main>
+        <br>
         <h1>Gallery</h1>
-        <!-- Add images of clothes for sale here -->
+        <h2 style="text-align: center;">(ALL TEMPORARY IMAGES)</h2>
+        <br>
+        <h2>Lehengas</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="slideshow1.png" alt="Image 1">
+                <img src="slideshow2.png" alt="Image 2">
+                <img src="slideshow3.png" alt="Image 3">
+                <img src="slideshow4.png" alt="Image 4">
+                <img src="slideshow5.png" alt="Image 5">
+            </div>
+            <button class="carousel-prev">&#10094;</button>
+            <button class="carousel-next">&#10095;</button>
+        </div>
+
+        <h2>Saris</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="slideshow1.png" alt="Image 1">
+                <img src="slideshow2.png" alt="Image 2">
+                <img src="slideshow3.png" alt="Image 3">
+                <img src="slideshow4.png" alt="Image 4">
+                <img src="slideshow5.png" alt="Image 5">
+            </div>
+            <button class="carousel-prev">&#10094;</button>
+            <button class="carousel-next">&#10095;</button>
+        </div>
+
+        <h2>Blouses</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="slideshow1.png" alt="Image 1">
+                <img src="slideshow2.png" alt="Image 2">
+                <img src="slideshow3.png" alt="Image 3">
+                <img src="slideshow4.png" alt="Image 4">
+                <img src="slideshow5.png" alt="Image 5">
+            </div>
+            <button class="carousel-prev">&#10094;</button>
+            <button class="carousel-next">&#10095;</button>
+        </div>
+
+        <h2>Indo-Western</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="slideshow1.png" alt="Image 1">
+                <img src="slideshow2.png" alt="Image 2">
+                <img src="slideshow3.png" alt="Image 3">
+                <img src="slideshow4.png" alt="Image 4">
+                <img src="slideshow5.png" alt="Image 5">
+            </div>
+            <button class="carousel-prev">&#10094;</button>
+            <button class="carousel-next">&#10095;</button>
+        </div>
+
+        <h2>Kurtis</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="slideshow1.png" alt="Image 1">
+                <img src="slideshow2.png" alt="Image 2">
+                <img src="slideshow3.png" alt="Image 3">
+                <img src="slideshow4.png" alt="Image 4">
+                <img src="slideshow5.png" alt="Image 5">
+            </div>
+            <button class="carousel-prev">&#10094;</button>
+            <button class="carousel-next">&#10095;</button>
+        </div>
+
+        <h2>Punjabi Suits</h2>
+        <div class="carousel-container" style="margin-bottom: 100px;">
+            <div class="carousel-slide">
+                <img src="slideshow1.png" alt="Image 1">
+                <img src="slideshow2.png" alt="Image 2">
+                <img src="slideshow3.png" alt="Image 3">
+                <img src="slideshow4.png" alt="Image 4">
+                <img src="slideshow5.png" alt="Image 5">
+            </div>
+            <button class="carousel-prev">&#10094;</button>
+            <button class="carousel-next">&#10095;</button>
+        </div>
+        <br>
     </main>
     <footer>
         <p>&copy; 2024 Bollywood Threads. All rights reserved.</p>
     </footer>
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Include Slick JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $('.carousel-slide').slick({
+      slidesToShow: 3, // Number of slides shown at once
+      slidesToScroll: 1, // Number of slides scrolled at a time
+      autoplay: true,
+      autoplaySpeed: 3000, // Interval time between slides (in milliseconds)
+      prevArrow: '.carousel-prev',
+      nextArrow: '.carousel-next',
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  });
+    </script>
 </body>
 </html>
