@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bollywood Threads - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="client.css">
+</head>
+<body>
+    <header>
+        <img id="logo" style="width: 400px;" src="logo2.png" alt="logo">
+        <br>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="appointment.html">Book an Appointment</a></li>
+                <li><a href="exhibitions.html">Upcoming Exhibitions</a></li>
+                <li><a href="aboutme.html">About the Owner</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="slideshow1.png" alt="Image 1">
+                <img src="slideshow2.png" alt="Image 2">
+                <img src="slideshow3.png" alt="Image 3">
+                <img src="slideshow4.png" alt="Image 4">
+                <img src="slideshow5.png" alt="Image 5">
+            </div>
+            <button class="carousel-prev">&#10094;</button>
+            <button class="carousel-next">&#10095;</button>
+            <button class="appointment-button" onclick="window.location.href='appointment.html';">Book Appointment</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bollywood Threads. All rights reserved.</p>
+    </footer>
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Slick Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

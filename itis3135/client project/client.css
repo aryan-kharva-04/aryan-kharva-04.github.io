@@ -1,0 +1,112 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 5px;
+    text-align: center; /* Center the content */
+}
+
+nav ul {
+    color: #000000;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: inline-block; /* Make the list inline-block */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-align: center;
+    color: #000000;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f4f4f5;
+}
+
+footer {
+    background-color: #131313;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%; /* Make the carousel container span the entire width of the page */
+    height: 100%; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 2000px; /* Adjust as needed */
+    height: 100%; /* Take up the full height of the carousel */
+}
+
+.carousel-slide img {
+    width: 500px; /* Ensure images take up the full width of the slide */
+    height: 1000px; /* Take up the full height of the slide */
+    object-fit: cover; /* Ensure the entire slide is covered by the image */
+}
+
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+}
+
+.carousel-prev {
+    left: 0;
+}
+
+.carousel-next {
+    right: 0;
+}
+
+.appointment-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent; /* Set background color to transparent */
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: 2px solid #fff; /* Add a border to make the button visible */
+    padding: 15px 30px; /* Adjust padding to make the button bigger */
+    cursor: pointer;
+    z-index: 3; /* Ensure the button is on top of the carousel */
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+    font-size: 18px; /* Adjust font size to make it bigger */
+}
+
+.appointment-button:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change background color on hover to semi-transparent white */
+}
