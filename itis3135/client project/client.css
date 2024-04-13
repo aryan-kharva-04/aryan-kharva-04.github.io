@@ -6,13 +6,14 @@ body {
 }
 
 main {
-    background-color: #f1f0f0;
+    background-color: #fafafa;
 }
 
 header {
     color: #fff;
     padding: 5px;
     text-align: center; /* Center the content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -23,6 +24,7 @@ nav ul {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     display: inline-block; /* Make the list inline-block */
+    
 }
 
 nav ul li {
@@ -323,4 +325,28 @@ input[type="submit"]:hover {
 #owner-info img {
     width: 300px;
     margin-right: 50px;
+}
+
+#galleryTitle {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#appointmentTitle {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#exhibitionsTitle {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#aboutmeTitle {
+    width: 310px;
+    display: block;
+    margin: 0 auto;
 }
