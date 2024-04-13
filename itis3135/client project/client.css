@@ -43,6 +43,17 @@ nav ul li a:hover {
     background-color: #f4f4f5;
 }
 
+.inline-paragraphs p {
+    display: inline;
+    margin-right: 20px; /* Optional: Add some spacing between paragraphs */
+}
+
+.contact-link {
+    
+    color: #000000;
+    text-decoration: none;
+}
+
 footer {
     background-color: #131313;
     color: #ffffff;
