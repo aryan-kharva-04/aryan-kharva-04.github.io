@@ -9,28 +9,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!-- Include Slick theme CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-    <style>
-.carousel-container {
-    position: relative;
-    width: 500px; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
-    overflow: hidden;
-    margin-left: 50px;
-}
 
-.carousel-slide {
-    display: flex;
-    transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
-}
-
-.carousel-slide img {
-    width: auto; /* Adjust the width of the images */
-    height: 100%; /* Ensure images take up the full height of the slide */
-    object-fit: cover; /* Ensure the entire slide is covered by the image */
-}
-    </style>
 </head>
 <body>
     <header>
@@ -53,12 +32,12 @@
         
         <h2 style="margin-left: 50px; font-size: 30px; margin-bottom: 0px;">March 23, 2024</h2>
         <h3 style="margin-left: 50px; font-size: 25px; margin-top: 5px; color: #313030;">NuvYug India Fest 2024</h3>
-        <div class="carousel-container" style="margin-bottom: 100px;">
-            <div class="carousel-slide">
-                <img src="exhibition1.png" alt="Image 1">
-                <img src="exhibition2.png" alt="Image 2">
-                <img src="slideshow2.png" alt="Image 3">
-                <img src="exhibition3.png" alt="Image 4">
+        <div class="carousel-container" style="margin-bottom: 100px;" id="nuvYugCarousel">
+            <div class="carousel-slide" id="nuvYugSlide">
+                <img id="exhibition1" src="exhibition1.png" alt="Image 1">
+                <img id="exhibition2" src="exhibition2.png" alt="Image 2">
+                <img id="exhibition3" src="slideshow2.png" alt="Image 3">
+                <img id="exhibition4" src="exhibition3.png" alt="Image 4">
             </div>
             <button class="carousel-prev">&#10094;</button>
             <button class="carousel-next">&#10095;</button>
@@ -72,31 +51,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Include Slick JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
-    $(document).ready(function(){
-    $('.carousel-slide').slick({
-      slidesToShow: 1, // Number of slides shown at once
-      slidesToScroll: 1, // Number of slides scrolled at a time
-      autoplay: true,
-      autoplaySpeed: 3000, // Interval time between slides (in milliseconds)
-      prevArrow: '.carousel-prev',
-      nextArrow: '.carousel-next',
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1
-          }
-        }
-      ]
-    });
-  });
-    </script>
+    <script src="exhibitions.js"></script>
 </body>
 </html>

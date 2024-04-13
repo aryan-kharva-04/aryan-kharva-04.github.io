@@ -172,3 +172,155 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #FF7043;
 }
+
+#lehengaCarousel {
+    position: relative;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#sariCarousel {
+    position: relative;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#blousesCarousel {
+    position: relative;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+
+#indoWesternCarousel {
+    position: relative;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#kurtisCarousel {
+    position: relative;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#punjabiSuitsCarousel {
+    margin-bottom: 130px;
+    position: relative;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#lehengaSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+#sariSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+#blousesSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+#indoWesternSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+#kurtisSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+#punjabiSuitsSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+#nuvYugCarousel {
+    position: relative;
+    width: 500px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+#nuvYugSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+#exhibition1 {
+    width: auto; /* Adjust the width of the images */
+    height: 100%; /* Ensure images take up the full height of the slide */
+    object-fit: cover; /* Ensure the entire slide is covered by the image */
+}
+
+#exhibition2 {
+    width: auto; /* Adjust the width of the images */
+    height: 100%; /* Ensure images take up the full height of the slide */
+    object-fit: cover; /* Ensure the entire slide is covered by the image */
+}
+
+#exhibition3 {
+    width: auto; /* Adjust the width of the images */
+    height: 100%; /* Ensure images take up the full height of the slide */
+    object-fit: cover; /* Ensure the entire slide is covered by the image */
+}
+
+#exhibition4 {
+    width: auto; /* Adjust the width of the images */
+    height: 100%; /* Ensure images take up the full height of the slide */
+    object-fit: cover; /* Ensure the entire slide is covered by the image */
+}
+
+#owner-info {
+    display: flex;
+    align-items: flex-start;
+}
+#owner-info img {
+    width: 300px;
+    margin-right: 50px;
+}
