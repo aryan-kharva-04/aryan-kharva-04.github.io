@@ -12,7 +12,7 @@ main {
 header {
     color: #fff;
     padding: 5px;
-    text-align: center; /* Center the content */
+    text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -23,7 +23,7 @@ nav ul {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
-    display: inline-block; /* Make the list inline-block */
+    display: inline-block;
     
 }
 
@@ -47,7 +47,7 @@ nav ul li a:hover {
 
 .inline-paragraphs p {
     display: inline;
-    margin-right: 20px; /* Optional: Add some spacing between paragraphs */
+    margin-right: 20px; 
 }
 
 .contact-link {
@@ -68,22 +68,22 @@ footer {
 
 .carousel-container {
     position: relative;
-    width: 100%; /* Make the carousel container span the entire width of the page */
-    height: 100%; /* Adjust the height as needed */
+    width: 100%; 
+    height: 100%; 
     overflow: hidden;
 }
 
 .carousel-slide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 2000px; /* Adjust as needed */
-    height: 100%; /* Take up the full height of the carousel */
+    width: 2000px; 
+    height: 100%; 
 }
 
 .carousel-slide img {
-    width: 500px; /* Ensure images take up the full width of the slide */
-    height: 1000px; /* Take up the full height of the slide */
-    object-fit: cover; /* Ensure the entire slide is covered by the image */
+    width: 500px;
+    height: 1000px;
+    object-fit: cover; 
 }
 
 
@@ -112,20 +112,20 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: transparent; /* Set background color to transparent */
+    background-color: transparent; 
     color: #ffffff;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    border: 2px solid #fff; /* Add a border to make the button visible */
-    padding: 15px 30px; /* Adjust padding to make the button bigger */
+    border: 2px solid #fff; 
+    padding: 15px 30px;
     cursor: pointer;
-    z-index: 3; /* Ensure the button is on top of the carousel */
-    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
-    font-size: 18px; /* Adjust font size to make it bigger */
+    z-index: 3;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
 }
 
 .appointment-button:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Change background color on hover to semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .container {
@@ -177,8 +177,8 @@ input[type="submit"]:hover {
 
 #lehengaCarousel {
     position: relative;
-    width: auto; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    width: auto;
+    height: auto;
     overflow: hidden;
     margin-left: 50px;
     margin-right: 50px;
@@ -187,8 +187,8 @@ input[type="submit"]:hover {
 
 #sarisCarousel {
     position: relative;
-    width: auto; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    width: auto;
+    height: auto;
     overflow: hidden;
     margin-left: 50px;
     margin-right: 50px;
@@ -197,8 +197,8 @@ input[type="submit"]:hover {
 
 #blousesCarousel {
     position: relative;
-    width: auto; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    width: auto;
+    height: auto;
     overflow: hidden;
     margin-left: 50px;
     margin-right: 50px;
@@ -208,8 +208,8 @@ input[type="submit"]:hover {
 
 #indoWesternCarousel {
     position: relative;
-    width: auto; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    width: auto;
+    height: auto;
     overflow: hidden;
     margin-left: 50px;
     margin-right: 50px;
@@ -218,8 +218,8 @@ input[type="submit"]:hover {
 
 #kurtisCarousel {
     position: relative;
-    width: auto; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    width: auto;
+    height: auto;
     overflow: hidden;
     margin-left: 50px;
     margin-right: 50px;
@@ -228,8 +228,8 @@ input[type="submit"]:hover {
 
 #punjabiSuitsCarousel {
     position: relative;
-    width: auto; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    width: auto;
+    height: auto;
     overflow: hidden;
     margin-left: 50px;
     margin-right: 50px;
@@ -238,8 +238,8 @@ input[type="submit"]:hover {
 
 #chaniyaCholisCarousel {
     position: relative;
-    width: auto; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    width: auto;
+    height: auto;
     overflow: hidden;
     margin-left: 50px;
     margin-right: 50px;
@@ -248,8 +248,8 @@ input[type="submit"]:hover {
 
 #gownsCarousel {
     position: relative;
-    width: auto; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    width: auto;
+    height: auto;
     overflow: hidden;
     margin-left: 50px;
     margin-right: 50px;
@@ -258,8 +258,8 @@ input[type="submit"]:hover {
 
 #moreCarousel {
     position: relative;
-    width: auto; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    width: auto;
+    height: auto;
     overflow: hidden;
     margin-left: 50px;
     margin-right: 50px;
@@ -269,70 +269,70 @@ input[type="submit"]:hover {
 #lehengaSlide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
+    width: 100%;
+    height: 500px;
 }
 
 #sarisSlide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
+    width: 100%;
+    height: 500px;
 }
 
 #blousesSlide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
+    width: 100%;
+    height: 500px;
 }
 
 #indoWesternSlide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
+    width: 100%;
+    height: 500px;
 }
 
 #kurtisSlide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
+    width: 100%;
+    height: 500px;
 }
 
 #punjabiSuitsSlide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
+    width: 100%;
+    height: 500px;
 }
 
 #chaniyaCholisSlide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
+    width: 100%;
+    height: 500px;
 }
 
 #gownsSlide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
+    width: 100%;
+    height: 500px;
 }
 
 #moreSlide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
+    width: 100%;
+    height: 500px;
 }
 
 #nuvYugCarousel {
     position: relative;
-    width: 500px; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    width: 500px;
+    height: auto;
     overflow: hidden;
     margin-left: 50px;
 }
@@ -340,32 +340,32 @@ input[type="submit"]:hover {
 #nuvYugSlide {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Adjust to show one slide at a time */
-    height: 500px; /* Take up the full height of the carousel */
+    width: 100%;
+    height: 500px;
 }
 
 #exhibition1 {
-    width: auto; /* Adjust the width of the images */
-    height: 100%; /* Ensure images take up the full height of the slide */
-    object-fit: cover; /* Ensure the entire slide is covered by the image */
+    width: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 #exhibition2 {
-    width: auto; /* Adjust the width of the images */
-    height: 100%; /* Ensure images take up the full height of the slide */
-    object-fit: cover; /* Ensure the entire slide is covered by the image */
+    width: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 #exhibition3 {
-    width: auto; /* Adjust the width of the images */
-    height: 100%; /* Ensure images take up the full height of the slide */
-    object-fit: cover; /* Ensure the entire slide is covered by the image */
+    width: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 #exhibition4 {
-    width: auto; /* Adjust the width of the images */
-    height: 100%; /* Ensure images take up the full height of the slide */
-    object-fit: cover; /* Ensure the entire slide is covered by the image */
+    width: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 #owner-info {

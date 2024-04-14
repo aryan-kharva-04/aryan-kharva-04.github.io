@@ -11,6 +11,7 @@
 </head>
 <body>
     <header>
+    <!--logo and nav bar-->
         <img id="logo" style="width: 400px;" src="logo2.png" alt="logo">
         <br>
         <nav>
@@ -27,6 +28,7 @@
     <br>
     <main style="background-color: #ffffff;">
         
+        <!--Carousel slideshow on the home page.-->
         <div class="carousel-container">
             <div class="carousel-slide">
                 <img src="slideshow1.png" alt="Image 1">
@@ -35,8 +37,11 @@
                 <img src="slideshow4.png" alt="Image 4">
                 <img src="slideshow5.png" alt="Image 5">
             </div>
+        <!--Back and forward buttons so users can also manually control the slideshow.-->
             <button class="carousel-prev">&#10094;</button>
             <button class="carousel-next">&#10095;</button>
+        
+        <!--Button to book appointment.-->
             <button class="appointment-button" onclick="window.location.href='appointment.html';">Book Appointment</button>
         </div>
         
@@ -48,7 +53,7 @@
     </footer>
     <!-- Include jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Include Slick Carousel JS -->
+    <!-- Include Slick Carousel JS Library (Source: https://kenwheeler.github.io/slick/)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="client.js"></script>
 </body>
