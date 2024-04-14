@@ -185,7 +185,7 @@ input[type="submit"]:hover {
     margin-bottom: 75px;
 }
 
-#sariCarousel {
+#sarisCarousel {
     position: relative;
     width: auto; /* Adjust the width as needed */
     height: auto; /* Adjust the height as needed */
@@ -227,7 +227,36 @@ input[type="submit"]:hover {
 }
 
 #punjabiSuitsCarousel {
-    margin-bottom: 130px;
+    position: relative;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#chaniyaCholisCarousel {
+    position: relative;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#gownsCarousel {
+    position: relative;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#moreCarousel {
     position: relative;
     width: auto; /* Adjust the width as needed */
     height: auto; /* Adjust the height as needed */
@@ -244,7 +273,7 @@ input[type="submit"]:hover {
     height: 500px; /* Take up the full height of the carousel */
 }
 
-#sariSlide {
+#sarisSlide {
     display: flex;
     transition: transform 0.5s ease;
     width: 100%; /* Adjust to show one slide at a time */
@@ -273,6 +302,27 @@ input[type="submit"]:hover {
 }
 
 #punjabiSuitsSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+#chaniyaCholisSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+#gownsSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust to show one slide at a time */
+    height: 500px; /* Take up the full height of the carousel */
+}
+
+#moreSlide {
     display: flex;
     transition: transform 0.5s ease;
     width: 100%; /* Adjust to show one slide at a time */
