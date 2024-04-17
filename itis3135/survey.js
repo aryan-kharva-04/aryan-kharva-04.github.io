@@ -59,11 +59,11 @@ function resetForm() {
     document.getElementById("loadImage").innerHTML = "";
   }
 
-function addCourse() {
+  function addCourse() {
     const course_var = document.getElementById("current_courses");
     const new_course = document.createElement("div");
     new_course.innerHTML = `
-        <label for="courses">Course: </label>
+        <label>Course: </label>
         <input type="text" class="courses" required>`;
     const delete_button = document.createElement("button");
     delete_button.type = "button";
