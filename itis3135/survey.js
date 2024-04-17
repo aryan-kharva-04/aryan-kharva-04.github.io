@@ -32,13 +32,34 @@ function submit_form(){
             <li><b>Interest: </b>${anything_else}</li>
             <li><b>Courses I'm Taking: </b>
                 <ul>
-                    ${current_courses.map(courses => `<li>${courses}</li>`).join("")}
+                    ${current_courses.map(courses => `<li><strong>${courses}</strong></li>`).join("")}
                 </ul>
             </li>
             <li><b>Funny/Interesting Item about Yourself: </b>${funny_thing}</li>
         </ul>
     `;
 }
+
+function resetForm() {
+    // Reset form fields
+    document.getElementById("name").value = "";
+    document.getElementById("mascot").value = "";
+    document.getElementById("image").value = "";
+    document.getElementById("image_caption").value = "";
+    document.getElementById("personal_background").value = "";
+    document.getElementById("professional_background").value = "";
+    document.getElementById("academic_background").value = "";
+    document.getElementById("webdev_background").value = "";
+    document.getElementById("computer_platform").value = "";
+    document.querySelectorAll(".courses").forEach(input => input.value = "");
+    document.getElementById("funny_thing").value = "";
+    document.getElementById("anything_else").value = "";
+    document.getElementById("agree").checked = false;
+  
+    // Reset form output
+    document.getElementById("byo_form").innerHTML = "";
+    document.getElementById("loadImage").innerHTML = "";
+  }
 
 function addCourse() {
     const course_var = document.getElementById("current_courses");
