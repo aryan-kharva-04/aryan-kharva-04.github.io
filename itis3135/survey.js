@@ -41,7 +41,6 @@ function submit_form(){
 }
 
 function resetForm() {
-    // Reset form fields
     document.getElementById("name").value = "";
     document.getElementById("mascot").value = "";
     document.getElementById("image").value = "";
@@ -55,8 +54,7 @@ function resetForm() {
     document.getElementById("funny_thing").value = "";
     document.getElementById("anything_else").value = "";
     document.getElementById("agree").checked = false;
-  
-    // Reset form output
+
     document.getElementById("byo_form").innerHTML = "";
     document.getElementById("loadImage").innerHTML = "";
   }
