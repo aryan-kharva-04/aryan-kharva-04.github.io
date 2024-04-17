@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Kharva's Awkward Koala || ITIS 3135 Arrays</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+
+    </header>
+    <main>
+        <h2>Arrays</h2>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+    
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary">
+    
+        <button onclick="addSalary()">Add Salary</button>
+    
+        <select id="employee-list"></select>
+    
+        <label for="new-salary">New Salary:</label>
+        <input type="text" id="new-salary">
+    
+        <button onclick="modifySalary()">Modify Salary</button>
+    
+        <div id="results"></div>
+    
+        <table id="results_table">
+            <tr>
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+        </table>
+    
+        <button onclick="displayResults()">Display Results</button>
+        <button onclick="displaySalary()">Display Salary</button>
+    
+        
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+    <script src="scripts/arrays.js"></script>
+</body>
+
+</html>
