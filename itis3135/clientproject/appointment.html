@@ -8,25 +8,13 @@
 </head>
 <body>
     <header>
-        <!--logo and nav bar-->
-        <img id="logo" style="width: 400px;" src="logo2.jpg" alt="logo">
-        <br>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="appointment.html">Book an Appointment</a></li>
-                <li><a href="exhibitions.html">Exhibitions & Events</a></li>
-                <li><a href="aboutme.html">About the Owner</a></li>
-            </ul>
-        </nav>
-        <br>
+        <div data-include="components/header.html"></div>
     </header>
     <br>
     <main>
         <br>
         <!--Custom header title for appointment page-->
-        <img id="appointmentTitle" src="appointmentTitle.png" alt="appointmentTitle">
+        <img id="appointmentTitle" src="images/appointmentTitle.png" alt="appointmentTitle">
 
         <!--Form for customer input to book appointment-->
         <div class="container" >
@@ -47,8 +35,8 @@
         <br>
     </main>
     <footer>
-        <p style="margin-left: 15px;">&copy; 2024 Bollywood Threads. All rights reserved.</p>
-    
-</footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>

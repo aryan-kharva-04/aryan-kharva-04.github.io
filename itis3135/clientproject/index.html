@@ -11,19 +11,7 @@
 </head>
 <body>
     <header>
-    <!--logo and nav bar-->
-        <img id="logo" style="width: 400px;" src="logo2.jpg" alt="logo">
-        <br>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="appointment.html">Book an Appointment</a></li>
-                <li><a href="exhibitions.html">Exhibitions & Events</a></li>
-                <li><a href="aboutme.html">About the Owner</a></li>
-            </ul>
-        </nav>
-        <br>
+        <div data-include="components/header.html"></div>
     </header>
     <br>
     <main style="background-color: #ffffff;">
@@ -31,11 +19,11 @@
         <!--Carousel slideshow on the home page.-->
         <div class="carousel-container">
             <div class="carousel-slide">
-                <img src="slideshow1.png" alt="Image 1">
-                <img src="slideshow2.png" alt="Image 2">
-                <img src="slideshow3.png" alt="Image 3">
-                <img src="slideshow4.png" alt="Image 4">
-                <img src="slideshow5.png" alt="Image 5">
+                <img src="images/slideshow1.png" alt="Image 1">
+                <img src="images/slideshow2.png" alt="Image 2">
+                <img src="images/slideshow3.png" alt="Image 3">
+                <img src="images/slideshow4.png" alt="Image 4">
+                <img src="images/slideshow5.png" alt="Image 5">
             </div>
         <!--Back and forward buttons so users can also manually control the slideshow.-->
             <button class="carousel-prev">&#10094;</button>
@@ -48,13 +36,13 @@
     </main>
 
     <footer>
-            <p style="margin-left: 15px;">&copy; 2024 Bollywood Threads. All rights reserved.</p>
-        
+        <div data-include="components/footer.html"></div>
     </footer>
     <!-- Include jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Include Slick Carousel JS Library (Source: https://kenwheeler.github.io/slick/)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="client.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>

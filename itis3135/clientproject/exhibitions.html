@@ -13,35 +13,23 @@
 </head>
 <body>
     <header>
-        <!--logo and nav bar-->
-        <img id="logo" style="width: 400px;" src="logo2.jpg" alt="logo">
-        <br>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="appointment.html">Book an Appointment</a></li>
-                <li><a href="exhibitions.html">Exhibitions & Events</a></li>
-                <li><a href="aboutme.html">About the Owner</a></li>
-            </ul>
-        </nav>
-        <br>
+        <div data-include="components/header.html"></div>
     </header>
     <br>
     <main>
         <br>
         <!--Custom heading title for exhibitions page-->
-        <img id="exhibitionsTitle" src="exhibitionsTitle.png" alt="exhibitionsTitle">
+        <img id="exhibitionsTitle" src="images/exhibitionsTitle.png" alt="exhibitionsTitle">
         
         <!--NuvYug India Fest 2024 Carousel-->
         <h2 style="margin-left: 50px; font-size: 30px; margin-bottom: 0px;">March 23, 2024</h2>
         <h3 style="margin-left: 50px; font-size: 25px; margin-top: 5px; color: #313030;">NuvYug India Fest 2024</h3>
         <div class="carousel-container" style="margin-bottom: 100px;" id="nuvYugCarousel">
             <div class="carousel-slide" id="nuvYugSlide">
-                <img id="exhibition1" src="exhibition1.png" alt="Image 1">
-                <img id="exhibition2" src="exhibition2.png" alt="Image 2">
-                <img id="exhibition4" src="exhibition3.png" alt="Image 3">
-                <img id="exhibition3" src="exhibition4.png" alt="Image 4">
+                <img id="exhibition1" src="images/exhibition1.png" alt="Image 1">
+                <img id="exhibition2" src="images/exhibition2.png" alt="Image 2">
+                <img id="exhibition4" src="images/exhibition3.png" alt="Image 3">
+                <img id="exhibition3" src="images/exhibition4.png" alt="Image 4">
 
             </div>
             <button class="carousel-prev">&#10094;</button>
@@ -53,13 +41,13 @@
         <br>
     </main>
     <footer>
-        <p style="margin-left: 15px;">&copy; 2024 Bollywood Threads. All rights reserved.</p>
-    
-</footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
     <!-- Include jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Include Slick Carousel JS Library (Source: https://kenwheeler.github.io/slick/)-->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="exhibitions.js"></script>
+    <script src="scripts/exhibitions.js"></script>
+    <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>
