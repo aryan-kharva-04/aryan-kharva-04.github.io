@@ -38,7 +38,11 @@
     <footer>
         <div data-include="components/footer.html"></div>
     </footer>
-    
+    <script>
+        document.getElementByID("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementByID("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        document.getElementByID("validation_link_disability").setAttribute("href", "https://wave.webaim.org/report#/" + location.href);
+    </script>
     <!-- Include jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Include Slick Carousel JS Library (Source: https://kenwheeler.github.io/slick/)-->
